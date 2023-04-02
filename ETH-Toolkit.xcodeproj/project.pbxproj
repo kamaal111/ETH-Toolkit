@@ -17,6 +17,8 @@
 		2CFD73CC29D9D50900728603 /* SalmonUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2CFD73CB29D9D50900728603 /* SalmonUI */; };
 		2CFD73CF29D9D53000728603 /* WeiCalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD73CE29D9D53000728603 /* WeiCalculatorScreen.swift */; };
 		2CFD73D129D9D59600728603 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD73D029D9D59600728603 /* Sidebar.swift */; };
+		2CFD73D329D9DDA600728603 /* UnitField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD73D229D9DDA600728603 /* UnitField.swift */; };
+		2CFD73D629D9E2FE00728603 /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD73D529D9E2FE00728603 /* String+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		2CFD73C829D9D4A800728603 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2CFD73CE29D9D53000728603 /* WeiCalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiCalculatorScreen.swift; sourceTree = "<group>"; };
 		2CFD73D029D9D59600728603 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		2CFD73D229D9DDA600728603 /* UnitField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitField.swift; sourceTree = "<group>"; };
+		2CFD73D529D9E2FE00728603 /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				2CFD73B129D9D2A100728603 /* ETH_ToolkitApp.swift */,
 				2CFD73B529D9D2A400728603 /* Assets.xcassets */,
 				2CFD73C329D9D38E00728603 /* Enumerations */,
+				2CFD73D429D9E2E600728603 /* Extensions */,
 				2CFD73B829D9D2A400728603 /* Preview Content */,
 				2CFD73C629D9D49400728603 /* Views */,
 			);
@@ -105,6 +110,7 @@
 			children = (
 				2CFD73C829D9D4A800728603 /* MainView.swift */,
 				2CFD73D029D9D59600728603 /* Sidebar.swift */,
+				2CFD73D229D9DDA600728603 /* UnitField.swift */,
 			);
 			path = SupportingViews;
 			sourceTree = "<group>";
@@ -115,6 +121,14 @@
 				2CFD73CE29D9D53000728603 /* WeiCalculatorScreen.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		2CFD73D429D9E2E600728603 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CFD73D529D9E2FE00728603 /* String+extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFD73C529D9D39C00728603 /* Screens.swift in Sources */,
+				2CFD73D329D9DDA600728603 /* UnitField.swift in Sources */,
 				2CFD73C929D9D4A800728603 /* MainView.swift in Sources */,
 				2CFD73CF29D9D53000728603 /* WeiCalculatorScreen.swift in Sources */,
+				2CFD73D629D9E2FE00728603 /* String+extensions.swift in Sources */,
 				2CFD73B429D9D2A100728603 /* ContentView.swift in Sources */,
 				2CFD73D129D9D59600728603 /* Sidebar.swift in Sources */,
 				2CFD73B229D9D2A100728603 /* ETH_ToolkitApp.swift in Sources */,
@@ -429,7 +445,7 @@
 			repositoryURL = "https://github.com/Kamaalio/SalmonUI.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.1;
+				minimumVersion = 5.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
